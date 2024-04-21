@@ -65,9 +65,21 @@ else if (array.length === 0){
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
+
+
+
+// 
 function find(value, array) {
+  for(let i = 0; i < array.length; i++){
+    if( array[i] === value){
+      return true;
+    }
+  }
+  return false;
 
 }
+
+console.log(find((4),([4])));
 
 // ----------------------
 // Stretch Goals
@@ -75,9 +87,11 @@ function find(value, array) {
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
-
+      // if statement: 
+      // first letter === string 
 }
 
+console.log();
 
 // 9. Function to return the sum of all numbers in an array
 function sumAll(array) {
@@ -86,6 +100,7 @@ function sumAll(array) {
 
   // TODO: return the sum
 }
+console.log();
 
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
@@ -94,11 +109,13 @@ function allPositive() {
 
 }
 
+console.log();
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
-//     here in a comment, write the function, and test it!
+//     here in a comment, write the function, and test it!git
 
+console.log();
 
 // DO NOT MODIFY
 // Used for automated testing
